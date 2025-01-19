@@ -25,3 +25,19 @@ This repository contains the code, datasets, and results for a comparative study
 3. **Results**:
    - CSV files containing performance metrics.
    - Figures visualizing encryption and decryption times and memory usage.
+   - 
+## How to Use
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KnightVicente/EncryptionAlgorithm
+2. Install dependencies:
+  ```bash
+  pip install -r requirements.txt
+  ```
+3. Run experiments
+  ```bash
+  python main.py
+  ```
+4. View results:
+  - CSV files in the results/ folder.
+  - Encrypted files in the encrypted_files/ folder.
