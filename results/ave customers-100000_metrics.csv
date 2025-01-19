@@ -1,0 +1,44 @@
+Run,Algorithm,Key Size (bits),Encryption Time (s),Decryption Time (s),Memory Usage (MB),Security Level
+1,AES,256,0.0228535,0.0225051,112.6015625,High (128-bit security)
+2,AES,256,0.0227089,0.0224172,162.2109375,High (128-bit security)
+3,AES,256,0.0226865,0.0225144,162.2148438,High (128-bit security)
+4,AES,256,0.0235369,0.0232602,162.2148438,High (128-bit security)
+5,AES,256,0.0229693,0.0231334,162.2148438,High (128-bit security)
+6,AES,256,0.0226275,0.0227995,162.2148438,High (128-bit security)
+7,AES,256,0.0233385,0.0226346,162.2148438,High (128-bit security)
+8,AES,256,0.0250907,0.0255544,162.2148438,High (128-bit security)
+9,AES,256,0.0228284,0.0226652,162.2148438,High (128-bit security)
+10,AES,256,0.0241413,0.022701,162.2148438,High (128-bit security)
+,,,0.02327815,0.0230185,157.253125,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+1,ChaCha20-Poly1305,256,0.0652696,0.0653794,145.6953125,High (128-bit security)
+2,ChaCha20-Poly1305,256,0.0654329,0.0660845,162.2148438,High (128-bit security)
+3,ChaCha20-Poly1305,256,0.0653979,0.0664492,162.2148438,High (128-bit security)
+4,ChaCha20-Poly1305,256,0.0661741,0.0656972,162.2148438,High (128-bit security)
+5,ChaCha20-Poly1305,256,0.0651697,0.0660928,162.2148438,High (128-bit security)
+6,ChaCha20-Poly1305,256,0.067005,0.0651986,162.2148438,High (128-bit security)
+7,ChaCha20-Poly1305,256,0.0655025,0.0664422,162.2148438,High (128-bit security)
+8,ChaCha20-Poly1305,256,0.0658628,0.0659385,162.2148438,High (128-bit security)
+9,ChaCha20-Poly1305,256,0.0653525,0.0651927,162.2148438,High (128-bit security)
+10,ChaCha20-Poly1305,256,0.0652289,0.0653209,162.2148438,High (128-bit security)
+,,,0.06563959,0.0657796,160.5628906,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+1,RSA (Hybrid),2048,0.0233797,0.0678903,145.6328125,High (based on key size + AES strength)
+2,RSA (Hybrid),2048,0.0235222,0.0644351,162.2109375,High (based on key size + AES strength)
+3,RSA (Hybrid),2048,0.0243326,0.0637304,162.2148438,High (based on key size + AES strength)
+4,RSA (Hybrid),2048,0.0234152,0.0628858,162.2148438,High (based on key size + AES strength)
+5,RSA (Hybrid),2048,0.0236311,0.062292,162.2148438,High (based on key size + AES strength)
+6,RSA (Hybrid),2048,0.0236242,0.0632973,162.2148438,High (based on key size + AES strength)
+7,RSA (Hybrid),2048,0.0234636,0.0656864,162.2148438,High (based on key size + AES strength)
+8,RSA (Hybrid),2048,0.0237307,0.0625787,162.2148438,High (based on key size + AES strength)
+9,RSA (Hybrid),2048,0.02466,0.0706275,162.2148438,High (based on key size + AES strength)
+10,RSA (Hybrid),2048,0.023516,0.0625349,162.2148438,High (based on key size + AES strength)
+,,,0.02372753,0.06459584,160.55625,

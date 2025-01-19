@@ -1,0 +1,39 @@
+Run,Algorithm,Key Size (bits),Encryption Time (s),Decryption Time (s),Memory Usage (MB),Security Level
+1,AES,256,0.000304,0.0001972,63.5234375,High (128-bit security)
+2,AES,256,9.61E-05,0.0104654,63.8671875,High (128-bit security)
+3,AES,256,9.33E-05,0.0001003,63.890625,High (128-bit security)
+4,AES,256,0.0001011,9.97E-05,63.89453125,High (128-bit security)
+5,AES,256,8.96E-05,9.54E-05,63.8984375,High (128-bit security)
+6,AES,256,9.50E-05,0.0001018,63.90234375,High (128-bit security)
+7,AES,256,9.26E-05,9.83E-05,63.90625,High (128-bit security)
+8,AES,256,9.45E-05,0.0001024,63.91015625,High (128-bit security)
+9,AES,256,9.58E-05,0.0001044,63.91796875,High (128-bit security)
+10,AES,256,9.72E-05,0.0001018,63.91796875,High (128-bit security)
+,,,0.00011592,0.00114667,63.86289063,
+,,,,,,
+,,,,,,
+1,RSA (Hybrid),2048,0.0013451,0.0399664,63.8046875,High (based on key size + AES strength)
+2,RSA (Hybrid),2048,0.0010894,0.0400108,63.87109375,High (based on key size + AES strength)
+3,RSA (Hybrid),2048,0.0010024,0.0402635,63.890625,High (based on key size + AES strength)
+4,RSA (Hybrid),2048,0.0010004,0.0385694,63.89453125,High (based on key size + AES strength)
+5,RSA (Hybrid),2048,0.001013,0.0414358,63.90234375,High (based on key size + AES strength)
+6,RSA (Hybrid),2048,0.0010116,0.0399524,63.90625,High (based on key size + AES strength)
+7,RSA (Hybrid),2048,0.001065,0.0427222,63.90625,High (based on key size + AES strength)
+8,RSA (Hybrid),2048,0.0010436,0.0403528,63.9140625,High (based on key size + AES strength)
+9,RSA (Hybrid),2048,0.0010128,0.0416478,63.91796875,High (based on key size + AES strength)
+10,RSA (Hybrid),2048,0.0010174,0.042361,63.91796875,High (based on key size + AES strength)
+,,,0.00106007,0.04072821,63.89257813,
+,,,,,,
+,,,,,,
+,,,,,,
+1,ChaCha20-Poly1305,256,0.0001547,0.0001258,63.8671875,High (128-bit security)
+2,ChaCha20-Poly1305,256,0.0001085,0.000116,63.890625,High (128-bit security)
+3,ChaCha20-Poly1305,256,0.0001194,0.0001113,63.89453125,High (128-bit security)
+4,ChaCha20-Poly1305,256,0.0001024,0.000106,63.8984375,High (128-bit security)
+5,ChaCha20-Poly1305,256,0.000109,0.0001134,63.90234375,High (128-bit security)
+6,ChaCha20-Poly1305,256,0.0001039,0.0001105,63.90625,High (128-bit security)
+7,ChaCha20-Poly1305,256,0.0001076,0.0001125,63.91015625,High (128-bit security)
+8,ChaCha20-Poly1305,256,0.0001094,0.0001136,63.91796875,High (128-bit security)
+9,ChaCha20-Poly1305,256,0.0001097,0.0001169,63.91796875,High (128-bit security)
+10,ChaCha20-Poly1305,256,0.0001065,0.0001118,63.921875,High (128-bit security)
+,,,0.00011311,0.00011378,63.90273438,
